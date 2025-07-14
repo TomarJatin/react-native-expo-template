@@ -22,6 +22,7 @@ export default function Layout() {
     PlusJakartaSans_600SemiBold,
     PlusJakartaSans_700Bold,
   });
+  
 
   useEffect(() => {
     if (loaded || error) {

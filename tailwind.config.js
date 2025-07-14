@@ -4,6 +4,13 @@ module.exports = {
   presets: [require("nativewind/preset")],
   theme: {
     extend: {
+      colors: {
+        main: '#E9B126',
+        'primary-black': '#111',
+        'secondary-black': '#2B2B2B',
+        'text-secondary': '#686868',
+        'text-white': '#FFFFFF',
+      },
       fontFamily: {
         sans: [
           "PlusJakartaSans_400Regular",
